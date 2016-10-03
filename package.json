@@ -1,7 +1,7 @@
 {
   "name": "webpack-demystified",
   "version": "1.0.0",
-  "description": "",
+  "description": "\"boiler plate webpack\"",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,11 +10,20 @@
     "type": "git",
     "url": "npm init --yes"
   },
-  "author": "",
+  "author": "Lacey Knaff",
   "license": "ISC",
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^3.1.0",
+    "mocha-loader": "^1.0.0",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^3.5.0",
     "mocha-loader": "^1.0.0",
     "webpack": "^1.13.2",
     "webpack-dev-server": "^1.16.1"
