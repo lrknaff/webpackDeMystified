@@ -15,6 +15,7 @@
   "author": "Lacey Knaff",
   "license": "ISC",
   "devDependencies": {
+    "babel-loader": "^6.2.5",
     "chai": "^3.5.0",
     "css-loader": "^0.25.0",
     "mocha": "^3.1.0",
