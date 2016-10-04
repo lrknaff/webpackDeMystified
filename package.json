@@ -10,6 +10,11 @@
     "type": "git",
     "url": "npm init --yes"
   },
+  "scripts": {
+  "start": "webpack-dev-server --hot --inline",
+  "build": "webpack",
+  "test": "mocha"
+},
   "author": "Lacey Knaff",
   "license": "ISC",
   "devDependencies": {

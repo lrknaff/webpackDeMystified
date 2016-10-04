@@ -8,5 +8,6 @@ module.exports = {
   output: {
     path: __dirname,
     filename: "[name].bundle.js"
+    //<script> main/test.bundle.js
   }
 }
